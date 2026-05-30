@@ -38,7 +38,7 @@ app.use(
 )
 app.use(
   "/dashboard",
-  apiKeyMiddleware,
+ apiKeyMiddleware,
   dashboardRoutes
 )
 
